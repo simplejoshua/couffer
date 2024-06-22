@@ -1,0 +1,39 @@
+.view-coupons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cpn-coupon_code {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0;
+}
+
+.cpn-merchant {
+    color: #bbb;
+    display: inline;
+    margin-right: 0.5em;
+}
+
+.cpn-valid-until {
+    color: #bbb;
+    display: inline;
+    margin-left: 0.5em;
+}
+
+.cpn-description {
+    color: #000;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+.hor-line {
+    content: '\00B7';
+    font-size: 2em;
+    color: #bbb;
+}
